@@ -1,9 +1,7 @@
 
-class Energy {
-    constructor(x, y,) {
-        this.x = x;
-        this.y = y;
-        this.directions = []
+class Energy  extends LivingCreature {
+    constructor(x, y,index) {
+        super(x,y,index)
     }
 
     getNewCoordinates() {
